@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eid Mubarak Massy ✨</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+  </head>
+  <body>
+    <!-- Background Elements -->
+    <div class="night-sky">
+      <div class="stars"></div>
+      <div class="twinkling"></div>
+    </div>
+    
+    <div class="lanterns-container">
+      <!-- We will inject lanterns via JS -->
+    </div>
+
+    <div id="app">
+      <div class="interactive-center" id="reveal-trigger">
+        <div class="moon-sheep-container">
+          <div class="moon">🌙</div>
+          <div class="sheep">🐐</div>
+        </div>
+        <p class="tap-hint">Tap to open Massy...</p>
+      </div>
+
+      <div class="card-container hidden" id="card-container">
+        <div class="glass-card">
+          <h1 class="greeting-title">Eid Al Adha Mubarak Massy <br> <span class="icons">🌙🐐</span></h1>
+          <p class="greeting-message">
+            May this beautiful Eid bring you peace, happiness, good health, endless baraka, and lots of laughter with family and friends. 
+            May all your prayers be accepted and your heart stay filled with light and joy. 
+            Enjoy the food, the moments, and the blessings of this special day. 🤍✨
+          </p>
+          <button id="close-card" class="btn">Close</button>
+        </div>
+      </div>
+    </div>
+    
+    <script src="/main.js"></script>
+  </body>
+</html>
