@@ -1,4 +1,4 @@
-# Eid Al-Adha Interactive Greeting 🌙🐐
+8# Eid Al-Adha Interactive Greeting 🌙🐐
 
 A beautiful, interactive, and personalized web application to wish Massy a Happy Eid al-Adha. This project features a stunning night sky theme complete with twinkling stars, floating lanterns, and a glassmorphic greeting card that reveals itself with a celebratory confetti explosion.
 
@@ -34,4 +34,4 @@ Because this project is built using native web technologies with no build depend
 3.  **Open your browser** and navigate to `http://localhost:8080`.
 
 ## Enjoy! 🤍✨
-*May this beautiful Eid bring peace, happiness, and lots of laughter.*
+*May this beautiful Eid bring peace, happiness, and lots of laughter..*
